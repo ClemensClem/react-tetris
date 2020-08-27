@@ -4,6 +4,7 @@ import { StyledStage } from "./styles/StyledStage";
 import Cell from "./Cell";
 
 export default function Stage({ stage }) {
+    console.log(stage);
     return (
         <StyledStage width={stage[0].length} height={stage.length}>
             {stage.map((row) =>
